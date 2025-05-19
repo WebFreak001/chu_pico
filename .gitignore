@@ -1,2 +1,7 @@
 *-backups
 Production/PCB/*/*
+~*.lck
+*.bak
+fp-info-cache
+*.blend1
+PCB/main/jlcpcb

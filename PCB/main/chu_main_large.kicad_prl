@@ -1,12 +1,10 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -17,7 +15,6 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -36,7 +33,6 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -48,19 +44,20 @@
       "pads",
       "zones",
       "drc_warnings",
+      "locked_item_shadows",
+      "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffc1030_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "chu_main.kicad_prl",
+    "filename": "chu_main_large.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -112,7 +109,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "jlcpcb.kicad_jobset"
+  ],
   "project": {
     "files": []
   },

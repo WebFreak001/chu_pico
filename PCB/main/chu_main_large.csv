@@ -1,0 +1,18 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D29,D13,D35,D22,D1,D25,D26,D2,D14,D36,D24,D33,D15,D9,D19,D4,D7,D18,D20,D34,D8,D28,D16,D5,D12,D10,D31,D21,D11,D6,D23,D27,D3,D17,D30,D32";"WS2812B-4020";36;"WS2812B_Unified";;;
+2;"C8,C2,C12,C6,C11,C4,C3,C7,C9,C10,C1,C5";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";12;"0.1uF";;;
+3;"X2,X5,X1,X4,X3";"GP2Y0E03_REAL";5;"GP2Y0E03_REAL";;;
+4;"K6,K3,K15,K20,K21,K26,K8,K11,K32,K29,K18,K27,K28,K9,K23,K10,K19,K7,K2,K5,K4,K16,K25,K30,K31,K22,K14,K17,K13,K24,K12";"ChuKeyLarge";31;"Conn_01x01_Female";;;
+5;"R10,R8,R7,R9,R4,R12,R11,R5,R13,R6";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";10;"4.7K";;;
+6;"U2";"TSSOP-24_4.4x7.8mm_P0.65mm";1;"PCA9548APW";;;
+7;"TOF5,TOF1,TOF4,TOF3,TOF2";"SH1.0_4P_Solder_Combo";5;"TOF_I2C";;;
+8;"U0";"ChuAcrylicLarge";1;"ChuAcrylicLarge";;;
+9;"K1";"ChuKeyLarge";1;"ChuKeyLarge";;;
+10;"R17,R14,R16,R15";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";4;"75K 1%";;;
+11;"U3,U4,U5,U6";"UQFN-20_3x3mm_P0.4mm";4;"MPR121QR2";;;
+12;"R1,R2";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"5K1";;;
+13;"USB1";"HRO-TYPE-C-31-M-12-Assembly";1;"U262-161N-4BVC11";;;
+14;"SW2,SW1,SW3";"SW_EVQ-P46B3M";3;"SPST_EVQP4";;;
+15;"JT2";"TowerConnector";1;"TowerL";;;
+16;"JT1";"TowerConnector";1;"TowerR";;;
+17;"U1";"RPi_Pico_SMD_Pins_No_SWD";1;"PiPico_No_SWD";;;

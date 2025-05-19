@@ -1,0 +1,74 @@
+(footprint "ChuKeyLarge"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -14.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5f0cefae-90fa-4297-9d54-b23f12f1e3ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ChuKeyLarge"
+		(at 0 14.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3cd4b00-fd54-47c6-b9da-f2bba144ea77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54bf0ec3-3617-49e1-850c-302b104b1bcc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5cb9141-29f0-4d6b-bf56-d9ec4efac750")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.8 0.8)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "49574ba5-e1e5-43e2-9bae-53b31234c6fa")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 28.5 40.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.02)
+		(uuid "c91a4918-7c7b-44c4-a8fe-15b574de971a")
+	)
+	(embedded_fonts no)
+)

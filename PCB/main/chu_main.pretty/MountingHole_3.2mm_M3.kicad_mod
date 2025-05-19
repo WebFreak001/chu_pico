@@ -1,22 +1,126 @@
-(footprint "MountingHole_3.2mm_M3" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 56D1B4CB)
-  (descr "Mounting Hole 3.2mm, no annular, M3")
-  (tags "mounting hole 3.2mm no annular m3")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6282d667-79cd-44e7-80c8-be7016e34908)
-  )
-  (fp_text value "MountingHole_3.2mm_M3" (at 0 4.2) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7fc00494-d222-4f8b-ab7e-6fd134aae9d9)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cec06082-aa10-4157-938f-cbb341771137)
-  )
-  (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 60df0708-7c5b-4e5e-b531-725677a5ca79))
-  (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 097b1924-f230-4c4b-8bf8-356ddf136b8a))
-  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 5048cb31-339e-45a9-bfa6-49b664cf5776))
+(footprint "MountingHole_3.2mm_M3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3")
+	(tags "mounting hole 3.2mm no annular m3")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6282d667-79cd-44e7-80c8-be7016e34908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.2mm_M3"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "7fc00494-d222-4f8b-ab7e-6fd134aae9d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "149ce2f2-9bab-4140-bf69-357fea53c327")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf079793-0e13-45d5-a6ae-d832fadc70b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "60df0708-7c5b-4e5e-b531-725677a5ca79")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "097b1924-f230-4c4b-8bf8-356ddf136b8a")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5048cb31-339e-45a9-bfa6-49b664cf5776")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "b4dd02ea-0969-4d40-8a88-876f876b22eb")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.624999 -3.25) (xy 0.624999 -3.25) (xy 2.03125 -2.6875) (xy 2.6875 -2.03125) (xy 3.296875 -0.507812)
+				(xy 3.296875 0.507812) (xy 2.699219 2.001953) (xy 2.001953 2.699219) (xy 0.500488 3.299805) (xy -0.500488 3.299805)
+				(xy -2.000122 2.699951) (xy -2.699951 2.000122) (xy -3.299988 0.50003) (xy -3.299988 -0.50003) (xy -2.6875 -2.03125)
+				(xy -2.03125 -2.6875)
+			)
+		)
+	)
+	(embedded_fonts no)
 )

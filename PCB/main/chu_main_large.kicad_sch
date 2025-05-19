@@ -5,121 +5,6 @@
 	(uuid "2e3f5573-c264-4a8b-a2f0-0e6473d39aad")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Female"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Female"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Female_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1479,7 +1364,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "chu_main:ChuAcrylic"
+		(symbol "chu_main:ChuAcrylicLarge"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1491,7 +1376,7 @@
 					)
 				)
 			)
-			(property "Value" "ChuAcrylic"
+			(property "Value" "ChuAcrylicLarge"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1499,7 +1384,7 @@
 					)
 				)
 			)
-			(property "Footprint" "chu_main:ChuAcrylic"
+			(property "Footprint" "chu_main:ChuAcrylicLarge"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1526,7 +1411,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ChuAcrylic_0_0"
+			(symbol "ChuAcrylicLarge_0_0"
 				(text "Chunithm"
 					(at 0 -1.27 0)
 					(effects
@@ -1536,7 +1421,7 @@
 					)
 				)
 			)
-			(symbol "ChuAcrylic_0_1"
+			(symbol "ChuAcrylicLarge_0_1"
 				(rectangle
 					(start -5.08 0.635)
 					(end 5.08 -2.54)
@@ -1546,6 +1431,124 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "chu_main:ChuKeyLarge"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K1"
+				(at 0.635 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ChuKeyLarge"
+				(at 1.27 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "chu_main:ChuKeyLarge"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ChuKeyLarge_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -9701,7 +9704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9728,8 +9731,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 35.56 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +9969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9993,8 +9996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 106.68 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -10465,7 +10468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10492,8 +10495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKeyBiasLeft"
-			(at 394.97 33.02 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10629,8 +10632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 99.06 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +10827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10851,8 +10854,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 99.06 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11306,7 +11309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11333,8 +11336,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 101.6 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11373,7 +11376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11390,7 +11393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Female"
+		(property "Value" "ChuKeyLarge"
 			(at 327.66 31.7499 0)
 			(effects
 				(font
@@ -11400,8 +11403,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 30.48 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,7 +11638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11662,8 +11665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 45.72 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12221,7 +12224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -12264,7 +12267,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12291,8 +12294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 104.14 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,7 +12858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12882,8 +12885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 106.68 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +12925,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12949,8 +12952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 93.98 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13224,8 +13227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 45.72 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13345,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13369,8 +13372,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 43.18 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13551,7 +13554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13578,8 +13581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 35.56 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14490,7 +14493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14517,8 +14520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 104.14 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14557,7 +14560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14584,8 +14587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 40.64 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,7 +15477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15501,8 +15504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 40.64 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15730,7 +15733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15757,8 +15760,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 48.26 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16606,7 +16609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16633,8 +16636,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKeyBiasRight"
-			(at 326.39 88.9 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16751,7 +16754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16778,8 +16781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 101.6 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16891,7 +16894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16918,8 +16921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 38.1 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17375,7 +17378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17402,8 +17405,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 93.98 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17662,7 +17665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 347.98 111.76 0)
 			(effects
 				(font
@@ -18114,7 +18117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18141,8 +18144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKeyBiasLeft"
-			(at 326.39 91.44 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18318,7 +18321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "chu_main:ChuAcrylic")
+		(lib_id "chu_main:ChuAcrylicLarge")
 		(at 394.335 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18328,7 +18331,7 @@
 		(fields_autoplaced yes)
 		(uuid "c68e4c20-d03b-4dd9-aa72-ddc385238478")
 		(property "Reference" "U0"
-			(at 394.335 233.68 0)
+			(at 394.335 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18336,14 +18339,14 @@
 			)
 		)
 		(property "Value" "ChuAcrylic"
-			(at 394.335 236.22 0)
+			(at 394.335 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "chu_main:ChuAcrylic"
+		(property "Footprint" "chu_main:ChuAcrylicLarge"
 			(at 394.335 240.03 0)
 			(effects
 				(font
@@ -18380,7 +18383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18407,8 +18410,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 48.26 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18524,7 +18527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18551,8 +18554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 96.52 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19013,7 +19016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19040,8 +19043,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 38.1 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19107,8 +19110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKeyBiasRight"
-			(at 394.97 88.9 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,7 +19672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19696,8 +19699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKeyBiasLeft"
-			(at 394.97 91.44 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19761,7 +19764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 347.98 53.34 0)
 			(effects
 				(font
@@ -19804,7 +19807,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19831,8 +19834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 96.52 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20017,7 +20020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 326.39 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20044,8 +20047,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 326.39 33.02 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 326.39 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20160,7 +20163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20187,8 +20190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKey"
-			(at 394.97 43.18 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20296,7 +20299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "chu_main:ChuKeyLarge")
 		(at 394.97 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20323,8 +20326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "chu_main:ChuKeyBiasRight"
-			(at 394.97 30.48 0)
+		(property "Footprint" "chu_main:ChuKeyLarge"
+			(at 394.97 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
