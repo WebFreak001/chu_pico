@@ -539,7 +539,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Production/CAD/chu_main_large.glb",
       "svg": "",
       "vrml": ""
     },

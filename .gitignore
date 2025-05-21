@@ -5,3 +5,4 @@ Production/PCB/*/*
 fp-info-cache
 *.blend1
 PCB/main/jlcpcb
+Production/CAD/chu_*.glb
