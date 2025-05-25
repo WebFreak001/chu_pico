@@ -17,7 +17,12 @@ For more information, see https://github.com/whowechina/chu_pico
 
 ## Part List
 
-* Go JLCPCB and make order with the gerber zip file (latest `Production\PCB\chu_main_xxx_large_yyy.zip`), regular FR-4 board, thickness is **1.6mm**.
+* Go JLCPCB and make order with the gerber zip files, regular FR-4 board, thickness is **1.6mm**
+  * latest `Production\PCB\chu_main_xxx_large_yyy.zip`
+  * latest `Production\PCB\chu_air_xxx.zip`
+
+### Main
+
 * 1x Rasberry Pico Pi Pico or Pico W.  
   https://www.raspberrypi.com/products/raspberry-pi-pico
   Becareful of 3 pins that are at the other side, they're difficult to solder and may leave air bubbles.  
@@ -37,10 +42,22 @@ For more information, see https://github.com/whowechina/chu_pico
   <img src="doc/tof_mix.jpg" width="80%">
 * 4x 0603 75kohm resistors (R14, R15, R16, R17; one next to each MPR121 module on backside)
 * 2x 0603 5.1kohm resistors (R1, R2; next to USB port).
-* 10x 0603 4.7kohm resistors (all the remaining resistors).
+* 10x 0603 4.7kohm resistors (all the remaining resistors - value from schematic, upstream project calls for 5.1kohm in their README, so perhaps try these instead).
 * 12x 0603 1uF (0.1~1uF all fine) capacitors (C1 to C12)
 * 3x Panasonic EVQP46B3M tiny tactile switches.  
   https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqp46b3m
+
+### Air Tower
+
+* 3x PT333-3B photo transistor (Q2, Q4, Q6)
+* 3x IR333C-A infrared LED emitters (D1, D2, D3)
+* 3x 2N7002 MOSFETs (60V 115mA 1.7Ω@5V,50mA 200mW 2.5V 1 N-channel SOT-23) OR AO3400A (unclear from schematic) (Q1, Q3, Q5)
+* 2x 47uF D5xL5.4mm polarized capacitors (I picked RVT1A470M0505 47UF 10V, but don't know if this was right yet) (C1, C2)
+* 3x 0603 1ohm resistors (R2, R4, R6)
+* 3x 0603 10ohm resistors (R1, R3, R5)
+* 3x 0603 2kohm resistors (R7, R8, R9)
+* 1x 0603 10kohm resistors (R10)
+
 
 ### Light Guide Panel
 
@@ -49,6 +66,8 @@ I have not yet cut any light panel, but the raw cut plan for it is inside [`PCB/
 ### Case
 
 No case available yet, see PCB file for exact mounting hole positions
+
+WIP case blender file in [Production/CAD/case_large.blend](Production/CAD/case_large.blend)
 
 ## Firmware
 
